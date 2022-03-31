@@ -1,7 +1,7 @@
 Solarized Theme for Icinga Web 2
 ======================================
 
-This restores the Solarized theme and addes the dark/light mode support.
+This restores the Solarized theme and adds the dark/light mode support.
 Based on [Ethan Schoonover's Solarized](https://ethanschoonover.com/solarized/)
 
 Requires:
@@ -9,8 +9,10 @@ Requires:
 
 Only a few things are tweaked right now:
 
-* TODO Colors of Icinga changed to Solarized
-* TODO Login background changed
+* Colors of Icinga changed to the ones from solarized-dark.less
+* TODO add support for light/dark mode
+* TODO change Login background
+* TODO renew Screenshots
 
 ![Screenshot Login](screenshots/login.png)
 
@@ -47,7 +49,7 @@ Feel free to add your ideas and examples here as well. Just add or modify a them
 
 ## License
 
-Unless otherwise noted the license of these examples is Public Domain.
+GPLv2+ because this theme is based on [solarized-dark.less](https://github.com/Icinga/icingaweb2/blob/v2.9.6/public/css/themes/solarized-dark.less).
 
 Icinga Web related examples were created by: [Markus Frosch](mailto:markus.frosch@icinga.com)
 
