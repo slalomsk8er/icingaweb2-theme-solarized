@@ -94,6 +94,17 @@
 
 @fp-selectedDayBackground: #80CBC4;
 
+@light-mode: {
+  :root {
+    --body-bg-color: @base03;
+    --text-color: @base00;
+  }
+
+  .icingaweb2-module.module-foo {
+    --your-custom-color-variable: purple;
+  }
+};
+
 .icinga-datetime-picker .flatpickr-day.today {
   &:hover,
   &:focus {
