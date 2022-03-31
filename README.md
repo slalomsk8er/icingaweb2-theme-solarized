@@ -1,17 +1,16 @@
-Company Theme example for Icinga Web 2
+Solarized Theme for Icinga Web 2
 ======================================
 
-This is an example to give you an idea how to start modifying the theme
-of Icinga Web 2 to your needs.
+This restores the Solarized theme and addes the dark/light mode support.
+Based on [Ethan Schoonover's Solarized](https://ethanschoonover.com/solarized/)
 
 Requires:
-* Icinga Web 2.5 or newer
+* Icinga Web 2.10 or newer
 
 Only a few things are tweaked right now:
 
-* Main logo in the interface replaced by a corporate logo
-* Colors of Icinga tuned for a corporate CI
-* Login background changed
+* TODO Colors of Icinga changed to Solarized
+* TODO Login background changed
 
 ![Screenshot Login](screenshots/login.png)
 
@@ -27,11 +26,11 @@ or on your local system under `/usr/share/icingaweb2/public/css/icinga`.
 
 Install these theme repository like any other Icinga Web 2 module at:
 
-    /usr/share/icingaweb2/modules/company
+    /usr/share/icingaweb2/modules/solarized
     
 Enable the module:
 
-    icingacli module enable company
+    icingacli module enable solarized
     
 Then you can select the theme in the admin or user UI.
 
